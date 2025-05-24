@@ -26,15 +26,13 @@ import RpsLogo from './assets/education_logo/Rps_Logo.jpg';
 
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import periodic from './assets/work_logo/periodic.png';
+import addBlog from './assets/work_logo/add-blog.png';
+import currency from './assets/work_logo/currency.png';
+import password from './assets/work_logo/password.png';
+import amazon from './assets/work_logo/amazon.png';
+import netflix from './assets/work_logo/netflix.png';
+
 
 
 export const SkillsInfo = [
@@ -167,92 +165,63 @@ export const education = [
 export const projects = [
     {
         id: 0,
-        title: "GitHub Profile Detective",
+        title: "Periodic Table",
         description:
-            "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-        image: githubdetLogo,
-        tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-        github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-        webapp: "https://githubprofiledetective.netlify.app/",
+            "A powerful and user-friendly React.js application designed to uncover and showcase detailed periodic table with interactive element filters by category (e.g., metals, nonmetals, noble gases). Designed for quick exploration of element properties with a clean UI and responsive layout.",
+        image: periodic,
+        tags: ["HTML", "TailwindCSS", "JavaScript", "React JS", "API"],
+        github: "https://github.com/SachinSihag1407/periodic-Table",
+        webapp: "https://periodic-table-lime.vercel.app/",
     },
     {
         id: 1,
-        title: "CS Prep",
+        title: "Currency Convertor",
         description:
-            "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-        image: csprepLogo,
-        tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-        github: "https://github.com/codingmastr/CSPrep",
-        webapp: "https://csprep.netlify.app/",
+            "The Currency Converter App is a React-based web application that enables users to convert values between different international currencies.The app features a user-friendly interface with intuitive input fields and dropdown selections, making it easy for users to perform quick calculations. Designed with simplicity and responsiveness in mind, it offers a smooth experience across devices.",
+        image: currency,
+        tags: ["React JS", "HTML", "TailwindCSS", "JavaScript"],
+        github: "https://github.com/SachinSihag1407/Chai_aur_React/tree/main/06_CurrencyConverter",
+        webapp: "https://currencyconverter-lake.vercel.app/",
     },
     {
         id: 2,
-        title: "Movie Recommendation App",
+        title: "Add Blog",
         description:
-            "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-        image: movierecLogo,
-        tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-        github: "https://github.com/codingmastr/Movie-Recommendation-App",
-        webapp: "https://movie-recommendation-app-jet.vercel.app/",
+            "This Blog Web App is a React-web application that allows authenticated users to log in, create, edit, and delete blog posts. The app features secure login/logout functionality, ensuring that only registered users can access and manage content. Blogs are hidden from public view, maintaining privacy and control — users must log in to view or interact with posts. With a clean and responsive UI, the platform offers a seamless blogging experience tailored for both writing and reading.",
+        image: addBlog,
+        tags: ["React JS", "HTML", "TailwindCSS", "JavaScript"],
+        github: "https://github.com/SachinSihag1407/Blog-App",
+        webapp: "https://blog-app-rust-nine.vercel.app/",
     },
     {
         id: 3,
-        title: "Email Validator NPM Package",
+        title: "Password Generator",
         description:
-            "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-        image: npmLogo,
-        tags: ["React JS", "Node.js", "NPM", "Validation"],
-        github: "https://github.com/codingmastr/cmtk-email-validator",
-        webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+            "This Password Generator is a web application that creates secure, random passwords based on user-defined criteria. Users can customize the password length and choose to include numbers, special characters, uppercase, and lowercase letters. The app also features a convenient copy-to-clipboard function for quick use. Designed with simplicity and security in mind, it provides an easy way to generate strong passwords for personal or professional use.",
+        image: password,
+        tags: ["React JS", "HTML", "TailwindCSS", "Javascript"],
+        github: "https://github.com/SachinSihag1407/Chai_aur_React/tree/main/05_passwordgenerator",
+        webapp: "https://password-generator-beta-two-76.vercel.app/",
     },
     {
         id: 4,
-        title: "Task Reminder Chrome Extension Tool",
+        title: "Amazon Clone",
         description:
-            "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-        image: taskremLogo,
-        tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-        github: "https://github.com/codingmastr/Task-Reminder-Tool",
-        webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+            "This is a simple Amazon clone built using HTML and CSS, designed to replicate the look and feel of the original Amazon homepage. It focuses on delivering a visually appealing and responsive user interface, enhancing the user experience across different screen sizes. The layout includes key sections like the navigation bar, product listings, and footer, styled to closely mimic the original site. This project highlights front-end development skills in creating structured and user-friendly web pages.",
+        image: amazon,
+        tags: ["HTML", "CSS"],
+        github: "https://github.com/SachinSihag1407/Amazon-clone",
+        webapp: "https://amazon-clone-eta-bice.vercel.app/",
     },
     {
         id: 5,
-        title: "Webverse Digital",
+        title: "Netflix Clone",
         description:
-            "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-        image: webverLogo,
-        tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-        github: "https://github.com/codingmastr/Webverse-Digital",
-        webapp: "https://webversedigital.com/",
+            "This Netflix clone is a front-end project crafted using HTML and CSS, focused on replicating the visual design of the original streaming platform. It features a sleek, responsive layout with a modern UI that adapts seamlessly across devices. The design includes key elements like the navigation bar, banner section, and content rows for an immersive user experience.",
+        image: netflix,
+        tags: ["HTML", "CSS"],
+        github: "https://github.com/SachinSihag1407/Netflix-Clone",
+        webapp: "https://amazon-clone-tpm7.vercel.app/",
     },
-    {
-        id: 6,
-        title: "Coding Master",
-        description:
-            "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-        image: cmLogo,
-        tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-        github: "https://codingmasterweb.in/",
-        webapp: "https://codingmasterweb.in/",
-    },
-    {
-        id: 7,
-        title: "Image Search App",
-        description:
-            "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-        image: imagesearchLogo,
-        tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-        github: "https://github.com/codingmastr/Image-Search-App",
-        webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-        id: 8,
-        title: "Image Background Remover",
-        description:
-            "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-        image: removebgLogo,
-        tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-        github: "https://github.com/codingmastr/Image-Background-Remover",
-        webapp: "https://removeyourbg.netlify.app/",
-    },
+
 ];  
