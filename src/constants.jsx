@@ -6,6 +6,8 @@ import reactjsLogo from './assets/tech_logo/reactjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
+import expressLogo from './assets/tech_logo/express.png'
+import mongodb from './assets/tech_logo/mongodb.png'
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import gitLogo from './assets/tech_logo/git.png';
@@ -19,6 +21,7 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 // Experience Section Logo's
 import ThinkIndia from './assets/company_logo/Think-India.jpg';
 import IIITLogo from './assets/company_logo/1.png';
+import InternWay from './assets/company_logo/internway_solutions_logo.jpeg'
 // import IIITLogo1 from './assets/company_logo/IIIT-Logo.png';
 
 // Education Section Logo's
@@ -52,6 +55,9 @@ export const SkillsInfo = [
         skills: [
 
             { name: 'MySQL', logo: mysqlLogo },
+            { name: 'NodeJs', logo: nodejsLogo },
+            { name: 'Express', logo: expressLogo },
+            { name: 'mongodb', logo: mongodb }
 
         ],
     },
@@ -81,6 +87,26 @@ export const SkillsInfo = [
 export const experiences = [
     {
         id: 0,
+        img: InternWay,
+        role: "Sofware Developer Intern",
+        company: "InternWay Solution",
+        date: "May 2025 - July 2025",
+        desc: "Contributed to the development and testing of 5+ backend APIs, ensuring smooth data exchange between server and client applications. Debugged and resolved over 10+ minor issues, leading to an approximate 15% improvement in application performance. As a member of a 4 person team, I actively participated in Agile sprints and contributing to the implementation of 3 new features.",
+        skills: [
+            "HTML",
+            "TailwindCss",
+            "Javascript",
+            "React",
+            "NodeJs",
+            "ExpressJs",
+            "MongoDb",
+            "Postman",
+            "Commucation",
+
+        ],
+    },
+    {
+        id: 1,
         img: ThinkIndia,
         role: "Convener",
         company: "Think India",
@@ -97,7 +123,7 @@ export const experiences = [
         ],
     },
     {
-        id: 1,
+        id: 2,
         img: IIITLogo,
         role: "Cricket Team Captain",
         company: "IIIT Agartala",
@@ -113,7 +139,7 @@ export const experiences = [
         ],
     },
     {
-        id: 2,
+        id: 3,
         img: IIITLogo,
         role: " Team Lead – Tech Competitions",
         company: "IIIT Agartala",
@@ -137,7 +163,7 @@ export const education = [
         img: IIITLogo,
         school: "IIIT Agartala, Tripura",
         date: "Nov 2022 - May 2026",
-        grade: "8.48 CGPA",
+        grade: "8.51 CGPA",
         desc: "I am Pursuing B.Tech in Computer Applications from Indain Institute Of Information Technology, Agartala. During my time at B.tech, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at IIIT Agrtala has been instrumental in shaping my technical abilities and professional growth.",
         degree: "Bachelor Of Technology - B.Tech",
     },
