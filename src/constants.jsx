@@ -35,6 +35,8 @@ import currency from './assets/work_logo/currency.png';
 import password from './assets/work_logo/password.png';
 import amazon from './assets/work_logo/amazon.png';
 import netflix from './assets/work_logo/netflix.png';
+import HuntaChat from './assets/work_logo/LoginPage.png';
+import ChatPage from './assets/work_logo/ChatPage.png';
 
 
 
@@ -191,6 +193,16 @@ export const education = [
 export const projects = [
     {
         id: 0,
+        title: "HuntaChat - Real Time Chat App",
+        description:
+            "💬 HuntaChat is a full-stack real-time chat application built with JavaScript, React, Node.js, Express, MongoDB, and Socket.IO. It allows users to connect instantly, send and receive messages in real time, manage their profiles, and enjoy a seamless chat experience with unseen message notifications.",
+        image: HuntaChat,
+        tags: ["JavaScript", "React JS","MongoDB","NodeJs", "ExpressJs","Socket.io", "TailwindCSS"],
+        github: "https://github.com/SachinSihag1407/HuntaChat",
+        webapp: "https://hunta-chat.vercel.app/login",
+    },
+    {
+        id: 1,
         title: "Periodic Table",
         description:
             "A powerful and user-friendly React.js application designed to uncover and showcase detailed periodic table with interactive element filters by category (e.g., metals, nonmetals, noble gases). Designed for quick exploration of element properties with a clean UI and responsive layout.",
@@ -200,7 +212,7 @@ export const projects = [
         webapp: "https://periodic-table-lime.vercel.app/",
     },
     {
-        id: 1,
+        id: 2,
         title: "Currency Convertor",
         description:
             "The Currency Converter App is a React-based web application that enables users to convert values between different international currencies.The app features a user-friendly interface with intuitive input fields and dropdown selections, making it easy for users to perform quick calculations. Designed with simplicity and responsiveness in mind, it offers a smooth experience across devices.",
@@ -210,7 +222,7 @@ export const projects = [
         webapp: "https://currencyconverter-lake.vercel.app/",
     },
     {
-        id: 2,
+        id: 3,
         title: "Add Blog",
         description:
             "This Blog Web App is a React-web application that allows authenticated users to log in, create, edit, and delete blog posts. The app features secure login/logout functionality, ensuring that only registered users can access and manage content. Blogs are hidden from public view, maintaining privacy and control — users must log in to view or interact with posts. With a clean and responsive UI, the platform offers a seamless blogging experience tailored for both writing and reading.",
@@ -220,7 +232,7 @@ export const projects = [
         webapp: "https://blog-app-rust-nine.vercel.app/",
     },
     {
-        id: 3,
+        id: 4,
         title: "Password Generator",
         description:
             "This Password Generator is a web application that creates secure, random passwords based on user-defined criteria. Users can customize the password length and choose to include numbers, special characters, uppercase, and lowercase letters. The app also features a convenient copy-to-clipboard function for quick use. Designed with simplicity and security in mind, it provides an easy way to generate strong passwords for personal or professional use.",
@@ -230,7 +242,7 @@ export const projects = [
         webapp: "https://password-generator-beta-two-76.vercel.app/",
     },
     {
-        id: 4,
+        id: 5,
         title: "Amazon Clone",
         description:
             "This is a simple Amazon clone built using HTML and CSS, designed to replicate the look and feel of the original Amazon homepage. It focuses on delivering a visually appealing and responsive user interface, enhancing the user experience across different screen sizes. The layout includes key sections like the navigation bar, product listings, and footer, styled to closely mimic the original site. This project highlights front-end development skills in creating structured and user-friendly web pages.",
@@ -240,7 +252,7 @@ export const projects = [
         webapp: "https://amazon-clone-eta-bice.vercel.app/",
     },
     {
-        id: 5,
+        id: 6,
         title: "Netflix Clone",
         description:
             "This Netflix clone is a front-end project crafted using HTML and CSS, focused on replicating the visual design of the original streaming platform. It features a sleek, responsive layout with a modern UI that adapts seamlessly across devices. The design includes key elements like the navigation bar, banner section, and content rows for an immersive user experience.",
