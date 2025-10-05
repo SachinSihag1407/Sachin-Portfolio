@@ -197,7 +197,7 @@ export const projects = [
         title: "Tripzy– Real-Time Ride Hailing App",
         description:
             "Tripzy is a full-stack Uber-like ride booking application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) along with WebSockets (Socket.io) for real-time location updates and Leaflet for map rendering. It features separate modules for Users and Captains (drivers), OTP verification for ride confirmation, and live tracking. The app is deployed on Vercel with dedicated frontend and backend configurations.",
-        image: HuntaChat,
+        image: Tripzy,
         tags: ["JavaScript", "React JS", "MongoDB", "NodeJs", "ExpressJs", "Socket.io", "TailwindCSS", "Ola API", "OpenStreetMap API", "gsap", "remixicon"],
         github: "https://github.com/SachinSihag1407/Tripzy",
         webapp: "https://hunta-taxi.vercel.app/",
